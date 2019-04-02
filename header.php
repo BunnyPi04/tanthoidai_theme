@@ -2,8 +2,7 @@
     <div id="top-header">
         <div class="container">
             <div class="bg-top">
-                <a href="index.html" id="logo"><img src="content/images/logo.png" alt="Tân thời đại"
-                                                    class="img-responsive"/></a>
+                <a href="index.html" id="logo"><img src="content/images/logo.png" alt="Tân thời đại" class="img-responsive"/></a>
                 <div class="slogan-mobile">ĐƠN VỊ PHÂN PHỐI CHÍNH THỨC<span>BẤT ĐỘNG SẢN VINHOMES</span></div>
             </div>
         </div>

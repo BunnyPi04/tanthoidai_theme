@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="vi-VN">
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="utf-8"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta charset="<?php bloginfo( 'charset' ); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title><?php get_the_title(); ?></title> <!-- get web title -->
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <meta name="robots" content="index,follow"/>
@@ -15,6 +15,5 @@
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&amp;subset=vietnamese'
           rel='stylesheet' type='text/css'>
-<!--    not done-->
-<?php //wp_head(); ?>
-</head>
+<?php wp_head(); ?>
+<!-- End head-->
